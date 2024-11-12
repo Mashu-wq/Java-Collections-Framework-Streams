@@ -1,4 +1,4 @@
-# Java-Collections-Framework-Streams
+# Java-Collections-Framework & Streams
 
 ## ArrayList
 
