@@ -7,6 +7,7 @@ An arrayList is a resizable array implementation of the list interface. Unlike a
 int [] arr = new int[10] //array declaration which has fixed size
 ArrayList<Integer> list = new ArrayList<>(); //ArrayList declaratio which has dynamic size
 ```
+```
 //list creation
 list.add(1)
 list.add(2)
@@ -40,9 +41,11 @@ ArrayList<String> listWithCapacity = new ArrayList<>(20);
 //Creating an ArrayList from another collection
 List<String> anotherList = Arrays.asList("A", "B", "C");
 ArrayList<String> listFromCollection = new ArrayList<>(anotherList);
+//To show the className use `list.getClass().getName()`
 ```
 
-//To show the className use `list.getClass().getName()`
+
+
 
 
 
