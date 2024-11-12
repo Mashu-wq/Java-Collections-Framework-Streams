@@ -11,7 +11,38 @@ ArrayList<Integer> list = new ArrayList<>(); //ArrayList declaratio which has dy
 list.add(1)
 list.add(2)
 list.add(80)
-System.out.println(list.get(2)); // will display the number which is positioned in index 2. OUTPUT: 80
+System.out.println(list.get(2)); // will display the value which is positioned in index 2. OUTPUT: 80
+System.out.println(list.size()); // returns the array size, OUTPUT: 3
+for(int i = 0; i < list.size(); i++){
+System.out.println(list.get(i)); // 1, 2, 80
+}
+//using collection
+for(int x: list){
+System.out.println(x); // 1, 2, 80
+}
+System.out.println(list.contains(5)); // False
+System.out.println(list.contains(2)); // True
+
+list.remove(2);// remove the value of 2 index -> 1, 2
+
+list.add(2, 50); //first is index no and second is value -> 1, 2 , 50
+list.set(1,8) // set will replace the 1 index value -> 1, 8, 50
+
+//Default constructor, creates an empty ArrayList with an initial capacity of 10
+ArrayList<String> list = new ArrayList<>();
+
+//Creating an ArrayList with a specified intial capacity
+ArrayList<String> listWithCapacity = new ArrayList<>(20);
+
+//Creating an ArrayList from another collection
+List<String> anotherList = Arrays.asList("A", "B", "C");
+ArrayList<String> listFromCollection = new ArrayList<>(anotherList);
+
+//To show the className use `list.getClass().getName()`
+
+
+
+
 
 ```
 
